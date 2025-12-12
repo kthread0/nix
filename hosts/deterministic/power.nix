@@ -1,8 +1,4 @@
-{
-	config,
-	pkgs,
-	...
-}: {
+{...}: {
 	services = {
 		tuned = {
 			enable = true;

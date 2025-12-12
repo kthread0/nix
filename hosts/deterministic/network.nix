@@ -1,8 +1,4 @@
-{
-	config,
-	pkgs,
-	...
-}: {
+{...}: {
 	networking = {
 		hostName = "deterministic";
 		tempAddresses = "default";

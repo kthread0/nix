@@ -1,15 +1,11 @@
 {
-	description = "A very basic flake";
+	description = "NixOS configuration";
 
 	inputs = {
 		nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
 	};
 
-	outputs = {
-		self,
-		nixpkgs,
-		...
-	}: {
+	outputs = {nixpkgs, ...}: {
 		nixosConfigurations.deterministic =
 			nixpkgs.lib.nixosSystem {
 				system = "x86_64-linux";
