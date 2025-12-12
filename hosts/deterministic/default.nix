@@ -98,6 +98,7 @@
     zlib-ng
     ffmpeg-full
     obs-studio
+    zed-editor
   ];
 
   programs.nix-ld.enable = true;

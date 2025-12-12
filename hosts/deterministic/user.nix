@@ -15,7 +15,7 @@
       "render"
     ];
     packages = with pkgs; [
-      zed-editor
+    	fastfetch
     ];
   };
 }
