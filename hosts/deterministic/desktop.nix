@@ -57,4 +57,7 @@
 		cosmic-workspaces-epoch
 		cosmic-ext-applet-minimon
 	];
+
+	services.gnome.gnome-keyring.enable = true;
+	programs.seahorse.enable = true;
 }
