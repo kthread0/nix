@@ -65,7 +65,7 @@
 		};
 	};
 
-	boot.kernelPackages = pkgs.linuxKernel.kernels.linux_zen;
+	boot.kernelPackages = pkgs.linuxPackages_zen;
 
 	boot.initrd.luks.devices."luks-fbe22c00-3e4b-4204-9b78-f1ff3bdd7b79".device = "/dev/disk/by-uuid/fbe22c00-3e4b-4204-9b78-f1ff3bdd7b79";
 
