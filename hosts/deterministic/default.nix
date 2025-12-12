@@ -8,6 +8,7 @@
 		./power.nix
 		./user.nix
 		./audio.nix
+		./dev.nix
 	];
 
 	nix = {
