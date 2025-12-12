@@ -1,4 +1,7 @@
 {...}: {
+	systemd.user.extraConfig = ''
+  	DefaultEnvironment="PATH=/run/current-system/sw/bin"
+	'';
 	# Define a user account. Don't forget to set a password with ‘passwd’.
 	users.users.kptr = {
 		isNormalUser = true;
