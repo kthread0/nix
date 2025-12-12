@@ -96,6 +96,7 @@
     openssl
     openssl_oqs
     zlib-ng
+    ffmpeg-full
   ];
 
   programs.nix-ld.enable = true;
