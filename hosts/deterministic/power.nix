@@ -1,6 +1,7 @@
 {...}: {
 	services = {
 		tlp = {
+			enable = true;
 			settings = {
 				TLP_ENABLE = 1;
 				TLP_DEFAULT_MODE = "AC";
