@@ -99,6 +99,8 @@
     ffmpeg-full
     obs-studio
     zed-editor
+    xdg-utils
+    xdg-utils-cxx
   ];
 
   programs.nix-ld.enable = true;

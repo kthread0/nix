@@ -15,7 +15,8 @@
       "render"
     ];
     packages = with pkgs; [
-    	fastfetch
+      fastfetch
+      vesktop
     ];
   };
 }

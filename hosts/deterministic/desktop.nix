@@ -7,7 +7,7 @@
       };
     };
     flatpak = {
-    	enable = true;
+      enable = true;
     };
     desktopManager = {
       cosmic = {
@@ -20,15 +20,15 @@
   };
 
   xdg = {
-  	portal = {
-		enable = true;
-		xdgOpenUsePortal = true;
-		extraPortals = with pkgs; [
-			xdg-desktop-portal 
-			xdg-desktop-portal-gtk 
-			xdg-desktop-portal-cosmic
-		];
-	};
+    portal = {
+      enable = true;
+      xdgOpenUsePortal = true;
+      extraPortals = with pkgs; [
+        xdg-desktop-portal
+        xdg-desktop-portal-gtk
+        xdg-desktop-portal-cosmic
+      ];
+    };
   };
 
   environment.systemPackages = with pkgs; [
