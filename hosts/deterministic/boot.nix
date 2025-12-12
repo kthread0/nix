@@ -121,4 +121,15 @@
 		"hugepagesz=1G"
 		"hugepages=4"
 	];
+
+	boot = {
+		runSize = "100%";
+		devSize = "100%";
+		devShmSize = "100%";
+		tmp = {
+			tmpfsSize = "100%";
+			useTmpfs = true;
+			tmpfsHugeMemoryPages = "always";
+		};
+	};
 }
