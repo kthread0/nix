@@ -97,6 +97,7 @@
     openssl_oqs
     zlib-ng
     ffmpeg-full
+    obs-studio
   ];
 
   programs.nix-ld.enable = true;
