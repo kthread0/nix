@@ -102,6 +102,7 @@
     xdg-utils
     xdg-utils-cxx
     vesktop
+    nushell
   ];
 
   programs.nix-ld.enable = true;
