@@ -93,6 +93,9 @@
     firefox
     nixd
     nil
+    openssl
+    openssl_oqs
+    zlib-ng
   ];
 
   system.stateVersion = "25.11"; # Did you read the comment?
