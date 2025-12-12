@@ -99,5 +99,13 @@
 
 	programs.nix-ld.enable = true;
 
+	security = {
+		sudo-rs = {
+			enable = true;
+			wheelNeedsPassword = false;
+			execWheelOnly = true;
+		};
+	};
+
 	system.stateVersion = "25.11"; # Did you read the comment?
 }
