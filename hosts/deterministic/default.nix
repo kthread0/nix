@@ -9,6 +9,7 @@
 		./user.nix
 		./audio.nix
 		./dev.nix
+		./sysctl.nix
 	];
 
 	nix = {
