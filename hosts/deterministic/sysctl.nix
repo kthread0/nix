@@ -280,8 +280,6 @@
 		"net.ipv6.conf.default.forwarding" = 0;
 		"net.ipv6.conf.all.mtu" = 1500;
 		"net.ipv6.conf.default.mtu" = 1500;
-		"net.ipv6.conf.all.use_tempaddr" = 2;
-		"net.ipv6.conf.default.use_tempaddr" = 2;
 		"net.ipv6.conf.all.dad_transmits" = 1;
 		"net.ipv6.conf.default.dad_transmits" = 1;
 		"net.ipv6.conf.all.router_solicitations" = 3;
