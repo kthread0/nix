@@ -1,7 +1,7 @@
 {...}: {
 	services = {
-		services.power-profiles-daemon.enable = false;
-		services.tuned.enable = false;
+		power-profiles-daemon.enable = false;
+		tuned.enable = false;
 		tlp = {
 			enable = true;
 			settings = {
