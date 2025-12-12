@@ -15,10 +15,6 @@
       "render"
       "tss"
     ];
-    packages = with pkgs; [
-      fastfetch
-      vesktop
-    ];
   };
 
   environment.shells = [

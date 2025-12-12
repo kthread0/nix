@@ -101,6 +101,7 @@
     zed-editor
     xdg-utils
     xdg-utils-cxx
+    vesktop
   ];
 
   programs.nix-ld.enable = true;
