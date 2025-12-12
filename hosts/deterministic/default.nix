@@ -103,6 +103,7 @@
     xdg-utils-cxx
     vesktop
     nushell
+    fastfetch
   ];
 
   programs.nix-ld.enable = true;
