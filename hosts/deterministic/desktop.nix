@@ -6,6 +6,9 @@
         enable = true;
       };
     };
+    flatpak = {
+    	enable = true;
+    };
     desktopManager = {
       cosmic = {
         enable = true;
@@ -15,6 +18,19 @@
       };
     };
   };
+
+  xdg = {
+  	portal = {
+		enable = true;
+		xdgOpenUsePortal = true;
+		extraPortals = with pkgs; [
+			xdg-desktop-portal 
+			xdg-desktop-portal-gtk 
+			xdg-desktop-portal-cosmic
+		];
+	};
+  };
+
   environment.systemPackages = with pkgs; [
     cosmic-bg
     cosmic-osd
