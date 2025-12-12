@@ -86,7 +86,7 @@
     wget2
     curlFull
     gitFull
-    neovim
+    helix
     btop-rocm
     alejandra
     python315FreeThreading
