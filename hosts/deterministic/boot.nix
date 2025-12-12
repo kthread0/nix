@@ -127,6 +127,7 @@
 		devSize = "100%";
 		devShmSize = "100%";
 		tmp = {
+			cleanOnBoot = true;
 			tmpfsSize = "100%";
 			useTmpfs = true;
 			tmpfsHugeMemoryPages = "always";
