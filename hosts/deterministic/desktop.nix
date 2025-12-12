@@ -33,7 +33,7 @@
 	environment.systemPackages = with pkgs; [
 		cosmic-bg
 		cosmic-osd
-		cosmic-term
+		kitty
 		cosmic-idle
 		cosmic-store
 		cosmic-randr
