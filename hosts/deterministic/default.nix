@@ -96,6 +96,8 @@
 		vesktop
 		nushell
 		fastfetch
+		carapace
+		carapace-bridge
 	];
 
 	programs.nix-ld.enable = true;
