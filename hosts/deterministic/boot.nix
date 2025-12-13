@@ -112,14 +112,6 @@
 		"tpm_crb.force=1"
 		"tpm_tis.interrupts=1"
 		"reboot=acpi"
-		"transparent_hugepage=always"
-		"transparent_hugepage_shmem=always"
-		"transparent_hugepage_tmpfs=always"
-		"hugepage_alloc_threads=12"
-		"hugepagesz=2M"
-		"hugepages=16"
-		"hugepagesz=1G"
-		"hugepages=4"
 	];
 
 	boot = {
