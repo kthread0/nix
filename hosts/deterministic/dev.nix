@@ -7,5 +7,7 @@
 		rust-cbindgen
 		rust-analyzer
 		rustfmt
+		gcc15Stdenv
+		binutils
 	];
 }
