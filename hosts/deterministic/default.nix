@@ -99,6 +99,8 @@
 		fastfetch
 		carapace
 		carapace-bridge
+		mpv
+		mpvScripts.uosc
 	];
 
 	programs.nix-ld.enable = true;
